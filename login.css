@@ -1,0 +1,38 @@
+
+body{
+    background-color: black !important;
+}
+.content h1{
+    color: chartreuse;
+}
+.box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content i{
+    color: red;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.perintah{
+    margin-top: 22px;
+}
+.perintah p{
+    color: chartreuse;
+}
+.perintah a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.perintah a:hover{
+    color: black;
+    background-color: rgb(17, 136, 53);
+}
